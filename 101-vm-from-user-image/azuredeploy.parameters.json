@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "customVmName": {
-            "value": "GEN-UNIQUE-8"
+            "value": "IVRelOne"
         },
         "bootDiagnosticsStorageAccountName": {
             "value": "GET-PREREQ-storageAccountName"
@@ -30,22 +30,10 @@
             "value": "GEN-UNIQUE-8"
         },
         "osType": {
-            "value": "Windows"
+            "value": "Linux"
         },
         "vmSize": {
-            "value": "Standard_A2"
-        },
-        "newOrExistingVnet": {
-            "value": "new"
-        },
-        "newOrExistingVnetName": {
-            "value": "GEN-UNIQUE"
-        },
-        "newOrExistingSubnetName": {
-            "value": "GEN-UNIQUE"
-        },
-        "existingVnetResourceGroupName": {
-            "value": "GEN-UNIQUE"
+            "value": "Standard_F8s_v2"
         }
     }
 }
