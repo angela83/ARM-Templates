@@ -12,7 +12,13 @@
             "value": "GET-PREREQ-rgName"
         },
         "userImageStorageAccountName": {
-            "value": "GEN-VHDSTORAGEACCOUNT-NAME"
+            "value": "testtemplatesdisks"
+        },
+        "userImageStorageContainerName": {
+            "value": "vhds"
+        },
+        "userImageVhdName": {
+            "value": "IVtest220190613152151.vhd"
         },
         "userImageStorageAccountResourceGroupName": {
             "value": "GEN-VHDRESOURCEGROUP-NAME"
