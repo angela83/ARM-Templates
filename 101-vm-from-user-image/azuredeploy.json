@@ -47,7 +47,6 @@
     "osType": {
       "type": "string",
       "allowedValues": [
-        "Windows",
         "Linux"
       ],
       "metadata": {
@@ -56,6 +55,9 @@
     },
     "vmSize": {
       "type": "string",
+      "allowedValues": [
+        "Standard_F8s_v2"
+      ],
       "metadata": {
         "description": "This is the size of your VM"
       }
@@ -104,7 +106,7 @@
     "nicName": "[concat(parameters('customVmName'),'Nic')]",
     "publicIPAddressType": "Dynamic",
     "apiVersion": "2015-06-15",
-    "templatelink": "[concat('https://raw.githubusercontent.com/singhkay/azure-quickstart-templates/master/101-vm-from-user-image/',parameters('newOrExistingVnet'),'vnet.json')]"
+    "templatelink": "[concat('https://github.com/angela83/ARM-Templates/tree/master/101-vm-from-user-image/',parameters('newOrExistingVnet'),'vnet.json')]"
   },
   "resources": [
     {
