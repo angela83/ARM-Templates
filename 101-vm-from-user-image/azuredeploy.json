@@ -4,6 +4,7 @@
   "parameters": {
     "customVmName": {
       "type": "string",
+      "defaultValue": "IVRelOne",
       "metadata": {
         "description": "This is the name of the your VM"
       }
