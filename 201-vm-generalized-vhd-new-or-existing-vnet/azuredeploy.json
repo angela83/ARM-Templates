@@ -4,18 +4,17 @@
   "parameters": {
     "vmName": {
       "type": "string",
-      "defaultValue": "newvm",
+      "defaultValue": "IVRelOne",
       "metadata": {
         "description": "Name of the VM"
       }
     },
     "osType": {
       "type": "string",
-      "allowedValues": [
-        "Windows",
+      "allowedValues": [ 
         "Linux"
       ],
-      "defaultValue": "Windows",
+      "defaultValue": "Linux",
       "metadata": {
         "description": "Type of OS on the existing vhd"
       }
@@ -28,7 +27,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_D2s_v3",
+      "defaultValue": "Standard_F8s_v2",
       "metadata": {
         "description": "Size of the VM"
       }
