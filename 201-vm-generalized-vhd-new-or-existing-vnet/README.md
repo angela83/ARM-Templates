@@ -9,9 +9,9 @@
 
 ## Prerequisites
 
-- A generalized VHD file that you want to create a VM from already exists in a storage account.
+- A generalized IV VHD file that you want to create a VM from already exists in a storage account.
 - Name of the resource group, existing VNET and subnet you want to connect the new virtual machine to if you're using an existing vnet
 
-This template creates a VM from a generalized VHD and lets you connect it to a new or existing VNET that can reside in another Resource Group then the virtual machine.
+This template creates an IV VM from a generalized VHD and lets you connect it to a new or existing VNET that can reside in another Resource Group then the virtual machine.
 
 Plese note: This deployment template does not create or attach an existing Network Security Group to the virtual machine. 
